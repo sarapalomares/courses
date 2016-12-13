@@ -1,0 +1,36 @@
+Last login: Tue Dec 13 08:58:34 on ttys000
+Chriss-MacBook-Pro:~ sara$ cd desktop
+Chriss-MacBook-Pro:desktop sara$ mkdir test
+Chriss-MacBook-Pro:desktop sara$ cd test
+Chriss-MacBook-Pro:test sara$ touch index.html
+Chriss-MacBook-Pro:test sara$ touch style.css
+Chriss-MacBook-Pro:test sara$ touch commands.txt
+Chriss-MacBook-Pro:test sara$ cp index.html index_2.html
+Chriss-MacBook-Pro:test sara$ cd desktop
+-bash: cd: desktop: No such file or directory
+Chriss-MacBook-Pro:test sara$ cd...
+-bash: cd...: command not found
+Chriss-MacBook-Pro:test sara$ cd ../
+Chriss-MacBook-Pro:desktop sara$ mkdir destination
+Chriss-MacBook-Pro:desktop sara$ cd test
+Chriss-MacBook-Pro:test sara$ mv index_2.html ../destination
+Chriss-MacBook-Pro:test sara$ cd test
+-bash: cd: test: No such file or directory
+Chriss-MacBook-Pro:test sara$ pwd
+/Users/sara/desktop/test
+Chriss-MacBook-Pro:test sara$ rm styles.css
+rm: styles.css: No such file or directory
+Chriss-MacBook-Pro:test sara$ rm style.css
+Chriss-MacBook-Pro:test sara$ cd desktop
+-bash: cd: desktop: No such file or directory
+Chriss-MacBook-Pro:test sara$ pwd
+/Users/sara/desktop/test
+Chriss-MacBook-Pro:test sara$ ../
+-bash: ../: is a directory
+Chriss-MacBook-Pro:test sara$ pwd
+/Users/sara/desktop/test
+Chriss-MacBook-Pro:test sara$ cd desktop
+-bash: cd: desktop: No such file or directory
+Chriss-MacBook-Pro:test sara$ cd ../
+Chriss-MacBook-Pro:desktop sara$ rm -rf destination
+Chriss-MacBook-Pro:desktop sara$ 
