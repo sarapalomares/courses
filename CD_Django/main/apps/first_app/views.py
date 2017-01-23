@@ -1,7 +1,5 @@
-from django.shortcuts import render
-#CONTROLLER
-#Create your views here.
+from django.shortcuts import render, HttpResponse
 
 def index(request):
-    print ("*"*50)
+    print ("*"*10)
     return render(request, "first_app/index.html")
