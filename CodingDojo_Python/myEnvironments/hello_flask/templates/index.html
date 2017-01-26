@@ -2,10 +2,12 @@
 <html>
       <head>
             <meta charset="utf-8">
-            <title>Hello World!</title>
+            <title>Hello Flask!</title>
+            <link rel="stylesheet" type=text/css href="{{url_for("static", filename="css/mystylesheet.css")}}">
+            <script type="text/javascript" src="{{ url_for('static', filename='myscript.js') }}"></script>
       </head>
       <body>
-            <p>Hello World!</p>
+            <h1>Hello Flask!</h1>
             <p>Hello my name is {{name}}!</p>
       </body>
 </html>
